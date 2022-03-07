@@ -23,7 +23,7 @@ public class token {
         StringBuilder sBuldier = new StringBuilder(length);
         Random random = new Random();
 
-        System.out.println("Yours codes are :");
+        System.out.println("Your tokens are :");
         for (int i = 1; i <= n; i++) {
             for (int j = 0; j < length; j++) {
                 sBuldier.append(str1.charAt(random.nextInt(str1.length())));
